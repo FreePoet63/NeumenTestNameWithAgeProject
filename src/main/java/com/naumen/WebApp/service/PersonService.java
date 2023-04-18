@@ -11,7 +11,7 @@ import java.util.*;
 @Service
 public class PersonService {
     private Map<String, Person> personMap = new HashMap<>();
-    Map<String, Integer> frequencies = new HashMap<>();
+    private Map<String, Integer> frequencies = new HashMap<>();
 
     @PostConstruct
     public void init() throws IOException {
